@@ -1,6 +1,8 @@
 import { FeedList } from "@/components/updates/FeedList";
 import { fetchUpdates } from "@/lib/updates";
 
+export const dynamic = "force-dynamic";
+
 export default async function AllUpdatesPage() {
   const { data: initialUpdates, total } = await fetchUpdates({ limit: 20 });
 

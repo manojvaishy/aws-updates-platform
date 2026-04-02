@@ -4,6 +4,8 @@ import { JwtPayload } from "../types";
 
 export interface AuthRequest extends Request {
   user?: JwtPayload;
+  body: any;
+  params: any;
 }
 
 export function authenticate(req: AuthRequest, res: Response, next: NextFunction): void {

@@ -3,6 +3,8 @@ import { MostViewed } from "@/components/updates/MostViewed";
 import { UserRole } from "@/types";
 import { fetchUpdates } from "@/lib/updates";
 
+export const dynamic = "force-dynamic";
+
 // TODO: replace with real auth session in Phase 2
 const MOCK_ROLE: UserRole = "developer";
 
