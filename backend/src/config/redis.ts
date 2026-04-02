@@ -25,7 +25,8 @@ export async function connectRedis(): Promise<void> {
     console.log("[redis] Connected");
   } catch (err) {
     console.error("[redis] Initial connection failed:", err);
-    throw err;
+    console.warn("[redis] Continuing without Redis cache...");
+    // Don't throw - allow server to start without Redis
   }
 }
 
