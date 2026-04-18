@@ -2,6 +2,19 @@
 
 Personalized AWS updates — simplified, translated, and role-filtered.
 
+## 🚀 Live Demo
+
+- **Frontend:** https://aws-updates-platform-y1dr.vercel.app
+- **Backend API:** https://aws-updates-platform.onrender.com/health
+
+## What it does
+
+- Fetches real AWS announcements from the official RSS feed every 6 hours
+- Filters updates by your role (Developer, DevOps, Solution Architect, Data Engineer)
+- Search across all AWS updates
+- Timeline view grouped by date
+- Multi-language support (English, Hindi, Hinglish)
+
 ## Project Structure
 
 ```
